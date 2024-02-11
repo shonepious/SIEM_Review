@@ -60,8 +60,8 @@ Splunk is software used for searching, monitoring, and analyzing machine-generat
 ## **<mark><ins>Costs** 💵💶💷
 This is the price for a medium-sized business, looking for a Splunk Enterprise Security solution. The prices are in Dollars, however, the region is set to United Kingdom.
 
-![](SPLUNK requirements.png)
-![](SPLUNK pricing calculator.png)
+![SPLUNK requirements](https://github.com/shonepious/SIEM_Review/assets/81581039/78244621-9f10-43b4-8bc2-36dad0ee8d36)
+![SPLUNK pricing calculator](https://github.com/shonepious/SIEM_Review/assets/81581039/90bc897c-0d4d-4772-9bd0-99cb82117c70)
 
 ### **<mark><ins>Pricing Plans** 🛣️
 
