@@ -85,16 +85,20 @@ It's not suited for scenarios where you want to report on a single set of data, 
 ## **<mark><ins>Splunk Enterprise demo** 🧑‍🏫
 The image below shows the administrator login page for Splunk Enterprise ⤵️
 ![](Splunkloginscreen.png)
+
 --------------------
 Splunk Enterprise gives you options from where you can import or add data. The different options 
 allow admins to add data from various directories and locations and analyse different types of data, 
 such as network information, cloud data, operating system data, and security information.
 ![](Splunkwheretogetdatafrom.png)
+
 --------------------
 To demonstrate how adding data into Splunk works, I will add a tutorial.zip file which was downloaded from Splunk documentation.
 We can upload .zip files into Splunk and it will automatically decompress the file and ingest it normally. 
 Splunk will take you through the data adding process.
+
 ![](splunkaddingcv.png)
+
 --------------------
 - We then select the input settings, which allows you to set what the host does when the data is added.
 - The format of the data is the source type. Leaving it as 'automatic' means Splunk can unzip the file or look at the log file formats inside it, 
@@ -103,21 +107,26 @@ and apply the appropriate source type.
 - Indexing indicates where Splunk will store the new information. We can create a new Index location named 'test' for example, however, I will keep teh default
 settings - this indexes the data in the main folder.  
 ![](splunkinputsettings.png)
+
 --------------------
 Splunk will then give a final opportunity, to review our choices and submit the data entry.
 
 ![](splunkreview.png)
+
 --------------------
 You can use search queries to manipulate the displayed data, to fine tune analysis.
 ![](splunkcvsearch.png)
+
 --------------------
 The search bar also allow boolean logic queries and parameters, which let you filter the data and further narrow your dataset for accurate and efficient analysis. 
 ![](splunkboolean.png)
 ![](splunkfail.png)
 ![](splunkboolean2.png)
+
 --------------------
 Splunk Enterprise saves any data that you have added to an index file. You then have the ability, to create a custom
 dashboard with this dataset for easy searching and analysis later.
 ![](Splunkdashboardview.png)
 ![](splunkdashboard.png)
+
 --------------------
