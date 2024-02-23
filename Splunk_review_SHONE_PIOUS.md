@@ -83,6 +83,15 @@ It's not suited for scenarios where you want to report on a single set of data, 
 
 --------------------
 ## **<mark><ins>Splunk Enterprise demo** 🧑‍🏫
+## **<mark><ins>Splunk Enterprise installation** ⏬
+- Splunk Enterprise security does not currently have a free trial available, however, Splunk Enterprise contains numerous security-based features that help keep businesses safe.
+- You can simply click 'free trial' and continue filling in your business details. 
+- Once you have created a new Splunk account, select which operating system you wish to download Splunk Enterprise onto (Windows/Linux/Mac).
+
+![](splunkfreetrial.png)
+![](splunkfreetriallogin.png)
+
+--------------------
 The image below shows the administrator login page for Splunk Enterprise ⤵️
 ![](Splunkloginscreen.png)
 
@@ -90,6 +99,7 @@ The image below shows the administrator login page for Splunk Enterprise ⤵️
 Splunk Enterprise gives you options from where you can import or add data. The different options 
 allow admins to add data from various directories and locations and analyse different types of data, 
 such as network information, cloud data, operating system data, and security information.
+
 ![](Splunkwheretogetdatafrom.png)
 
 --------------------
@@ -105,7 +115,8 @@ Splunk will take you through the data adding process.
 and apply the appropriate source type. 
 - The host value is just the name of the local host; in my case, this is 'shonepious'. 
 - Indexing indicates where Splunk will store the new information. We can create a new Index location named 'test' for example, however, I will keep teh default
-settings - this indexes the data in the main folder.  
+settings - this indexes the data in the main folder.
+ 
 ![](splunkinputsettings.png)
 
 --------------------
@@ -115,10 +126,12 @@ Splunk will then give a final opportunity, to review our choices and submit the 
 
 --------------------
 You can use search queries to manipulate the displayed data, to fine tune analysis.
+
 ![](splunkcvsearch.png)
 
 --------------------
 The search bar also allow boolean logic queries and parameters, which let you filter the data and further narrow your dataset for accurate and efficient analysis. 
+
 ![](splunkboolean.png)
 ![](splunkfail.png)
 ![](splunkboolean2.png)
@@ -126,6 +139,7 @@ The search bar also allow boolean logic queries and parameters, which let you fi
 --------------------
 Splunk Enterprise saves any data that you have added to an index file. You then have the ability, to create a custom
 dashboard with this dataset for easy searching and analysis later.
+
 ![](Splunkdashboardview.png)
 ![](splunkdashboard.png)
 
